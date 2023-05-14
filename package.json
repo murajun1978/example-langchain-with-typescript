@@ -9,8 +9,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "devDependencies": {
+    "@types/node": "^20.1.4",
     "@vercel/ncc": "^0.36.1",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "langchain": "^0.0.75"
   }
 }
